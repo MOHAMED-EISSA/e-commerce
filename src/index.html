@@ -7,8 +7,60 @@
         <link rel="stylesheet" href="./css/style.css">
         </head>
         <body>
-            <h1>اهلا وسهلا بكم فى متجر عربى</h1>
-            <h2> متجر عربى</h2>
+            <h1>متجر عربى</h1><br/><br/><br/>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                    <nav class="navbar">
+                        <div class="navbar-header">
+                            <a href="." class="navbar-brand">
+                                <img src="images/logo.png" alt="متجر عربى">
+                            </a>
+                        </div>
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="كلمة البحث..">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    اختر القائمة 
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="ckeckbox">
+                                            <label>
+                                                <input type="checkbox" name="search-category" value="men">
+                                                رجالى
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ckeckbox">
+                                            <label>
+                                                <input type="checkbox" name="search-category" value="women">
+                                                حريمى
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ckeckbox">
+                                            <label>
+                                                <input type="checkbox" name="search-category" value="kids">
+                                                اطفال
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                    
+                            </div>
+                            <button class="btn" type="submit">ابحث</button>
+                        </form>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+            <script src="js/jquery-slim.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+        
             <script src="js/scrip.js"></script>
         </body>
 </html>
